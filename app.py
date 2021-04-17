@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import request
 from flask import jsonify
-from .utils import AnalyzeText
+from utils import AnalyzeText
 from flask_cors import CORS, cross_origin
 from werkzeug.datastructures import ImmutableMultiDict
 
